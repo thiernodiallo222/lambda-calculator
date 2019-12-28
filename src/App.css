@@ -5,6 +5,7 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    justify-content: center;
 }
 .display {
     margin-top: 25px;
@@ -20,3 +21,70 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+  .spContainer{
+  width: 75%;
+  display: flex;
+
+  
+
+  }
+
+  .spItems{
+ margin: 18px;
+ margin-right: 10px;
+ width: 17%;
+ height: 60px;
+ border-radius: 100%;
+ font-size: 1.5rem;
+ background: green;
+ color: white;
+
+  }
+
+  .opSection {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      float: right;
+     
+  }
+  .opElements{
+      padding-top: 10px;
+      margin: 10px;
+      margin-top: 18px;
+      margin-right: 10px;
+      margin-left: 0px;
+      width: 49%;
+      height: 70px;
+      border-radius: 100%;
+      background-color: cornflowerblue;
+      color: white;
+      font-size: 1.5rem;
+      justify-content: right;
+    
+  }
+  .numSection{
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .numSection > :nth-child(10){
+      width:42%;
+      height: 60px;
+      border-radius: 30px;
+  }
+  .numItems{
+      margin: 18px;
+      width: 17%;
+      height: 60px;
+      border-radius: 100%;
+      background-color: blue;
+      color: white;
+      font-size: 1.5rem;
+  }
+
+  
+
+  
