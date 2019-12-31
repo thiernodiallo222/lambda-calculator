@@ -23,9 +23,12 @@ function App() {
       <div className="App">
         <Display digit={0} />
         <section className="section-body">
-          <div className ="column-one">
-         <Specials />
-         <Numbers />
+          <div className="column-one">
+            {/* <div className= "colunm-one-in"> */}
+           <Specials />
+           <Numbers />
+            {/* </div> */}
+         
           </div>
           <div className ="column-two">
         <Operators />
