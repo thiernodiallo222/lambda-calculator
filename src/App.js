@@ -22,9 +22,17 @@ function App() {
       <Logo />
       <div className="App">
         <Display digit={0} />
-        <Operators />
+        <section className="section-body">
+          <div className ="column-one">
          <Specials />
          <Numbers />
+          </div>
+          <div className ="column-two">
+        <Operators />
+         </div>
+        </section>
+       
+        
          
        
       

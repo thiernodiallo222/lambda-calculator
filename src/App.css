@@ -1,7 +1,7 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
@@ -21,70 +21,97 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
-  .spContainer{
-  width: 75%;
+  
+
+  /* Special buttons */
+
+  .spItems{
+ margin: 15px;
+ margin-right: 0;
+ width: 80px;
+ height: 80px;
+ border-radius: 100%;
+ font-size: 1.5rem;
+ background: rgb(11,93,155);
+ color: white;
+ box-sizing: border-box;
+
+  }
+
+  /* Number buttons */
+
+.numItems{
+      margin: 15px;
+      margin-right: 0;
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      background-color:rgb(79,120,156);
+      color: white;
+      font-size: 1.5rem;
+      box-sizing: border-box;
+  }
+
+
+  /* Operator buttons */
+  .opElements{
+      margin: 15px;
+      margin-left: 0px;
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      background-color: rgb(0,114,145);
+      color: white;
+      font-size: 1.5rem;
+      justify-content: center;
+      box-sizing: border-box;
+  }
+  .numSection > :nth-child(10){
+      width: 160px;
+      height: 80px;
+      border-radius: 55px;
+      margin: 15px;
+  }
+
+  /* Container */
+
+.section-body{
+  width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* flex-direction: column; */
+  box-sizing: border-box;
 
   
 
   }
-
-  .spItems{
- margin: 18px;
- margin-right: 10px;
- width: 17%;
- height: 60px;
- border-radius: 100%;
- font-size: 1.5rem;
- background: green;
- color: white;
-
+  
+  .column-one{
+  /* margin: 15px; */
+  margin-left: 15px;
+  margin-right: 0;
+  width: 75%;;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
   }
 
-  .opSection {
+  .column-two {
+      /* margin: 15px; */
+      /* margin-left: 0; */
+      margin-left: 0;
       width: 25%;
       display: flex;
       flex-direction: column;
-      justify-content: right;
-      float: right;
-     
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+       
   }
-  .opElements{
-      padding-top: 10px;
-      margin: 10px;
-      margin-top: 18px;
-      margin-right: 10px;
-      margin-left: 0px;
-      width: 49%;
-      height: 70px;
-      border-radius: 100%;
-      background-color: cornflowerblue;
-      color: white;
-      font-size: 1.5rem;
-      justify-content: right;
-    
-  }
-  .numSection{
-      width: 75%;
-      display: flex;
-      flex-wrap: wrap;
-  }
-
-  .numSection > :nth-child(10){
-      width:42%;
-      height: 60px;
-      border-radius: 30px;
-  }
-  .numItems{
-      margin: 18px;
-      width: 17%;
-      height: 60px;
-      border-radius: 100%;
-      background-color: blue;
-      color: white;
-      font-size: 1.5rem;
-  }
-
   
 
+  
+ 
   
