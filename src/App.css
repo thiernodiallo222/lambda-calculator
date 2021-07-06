@@ -5,9 +5,13 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    justify-content: center;
+    
 }
 .display {
     margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -16,7 +20,105 @@
     box-shadow: 1px 1px #322c2d;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    box-sizing: border-box;
+
   }
+  
+
+  /* Special buttons */
+
+  .spItems{
+ margin: 15px;
+ margin-right: 20px;
+ width: 70px;
+ height: 70px;
+ border-radius: 100%;
+ font-size: 2rem;
+ background: rgb(11,93,155);
+ color: white;
+ box-sizing: border-box;
+ box-shadow: 1px 1px #322c2d;
+
+  }
+
+  /* Number buttons */
+
+.numItems{
+      margin: 15px;
+      margin-right: 20px;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      background-color:rgb(79,120,156);
+      color: white;
+      font-size: 2rem;
+      box-sizing: border-box;
+      box-shadow: 1px 1px #322c2d;
+  }
+
+
+  /* Operator buttons */
+  .opElements{
+      margin: 15px;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      background-color: rgb(0,114,145);
+      color: white;
+      font-size: 2rem;
+      justify-content: center;
+      box-sizing: border-box;
+      box-shadow: 1px 1px #322c2d;
+  }
+  .numSection > :nth-child(10){
+      width: 175px;
+      height: 70px;
+      border-radius: 55px;
+      margin: 15px;
+      margin-right: 20px;
+  }
+
+  /* Container */
+
+.section-body{
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  align-self: center;
+  
+
+  }
+  
+  .column-one{
+  margin: 15px;
+  margin-left: 15px;
+  margin-right: 0;
+  width: 75%;;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  /* border: 2px solid green; */
+  }
+
+  .column-two {
+      margin-left: 0;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      /* border: 2px solid white; */
+       
+  }
+  
+
+  
+ 
+  
